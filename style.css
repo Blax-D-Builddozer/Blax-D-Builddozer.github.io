@@ -48,3 +48,27 @@ img.profile-pic {
     border-radius: 50%;
     border: 3px solid #ff6600;
 }
+.site-logo {
+  display: block;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.gallery {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+}
